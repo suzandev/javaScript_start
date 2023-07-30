@@ -88,34 +88,61 @@
 
 // ======== multi stage conditions
 
-var money = 65;
-var danishPrice = 45;
-var butterBread = 35;
-var toastBiscuit = 20;
+// var money = 65;
+// var danishPrice = 45;
+// var butterBread = 35;
+// var toastBiscuit = 20;
 
-if (danishPrice < money) {
-  console.log("Dan Dan danish khamu");
-} else if (butterBread < money) {
-  console.log("Butter bon khamu");
-} else if (toastBiscuit < money) {
-  console.log("Toast Biscuit khamu");
-} else {
-  console.log("Tea Party hobe only");
-}
+// if (danishPrice < money) {
+//   console.log("Dan Dan danish khamu");
+// } else if (butterBread < money) {
+//   console.log("Butter bon khamu");
+// } else if (toastBiscuit < money) {
+//   console.log("Toast Biscuit khamu");
+// } else {
+//   console.log("Tea Party hobe only");
+// }
 
 // ======== nested conditions
 
-var math = true;
-var geometry = true;
-var straightLint = false;
+// var math = true;
+// var geometry = true;
+// var straightLint = false;
 
-if (math == true) {
-  if (geometry == true) {
-    if (straightLint == true) {
-    } else {
-      console.log("baka pothe cholte parba na");
-    }
-  } else {
-    console.log("pithagorous hoite parba na");
-  }
-}
+// if (math == true) {
+//   if (geometry == true) {
+//     if (straightLint == true) {
+//     } else {
+//       console.log("baka pothe cholte parba na");
+//     }
+//   } else {
+//     console.log("pithagorous hoite parba na");
+//   }
+// }
+
+// task 1
+// var fruits = ["Apple", "Banana", "Orange"];
+
+// var fruits2 = fruits[1];
+// fruits[1] = "Mango";
+// fruits[2] = "Watermelon";
+
+// console.log(fruits1);
+
+// task - 2
+
+// var actualMarks = 20;
+
+// if (actualMarks >= 80) {
+//   console.log("A");
+// } else if (actualMarks >= 60) {
+//   console.log("B");
+// } else if (actualMarks >= 50) {
+//   console.log("C");
+// } else if (actualMarks >= 40) {
+//   console.log("D");
+// } else if (actualMarks >= 33) {
+//   console.log("E");
+// } else {
+//   console.log("you failed in your exam");
+// }
