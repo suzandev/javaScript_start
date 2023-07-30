@@ -44,6 +44,27 @@
 
 // ====== array start =======
 
-var friendsAge = [11, 21, 45, 14, 105, 6];
-// akta array er moddho koiti element ache janar jonno .length
-console.log(friendsAge.length);
+// var friendsAge = [11, 21, 45, 14, 105, 6];
+// // akta array er moddho koiti element ache janar jonno .length
+// console.log(friendsAge.length);
+
+// var numbers = [45, 68, 78, 56, 89, 98];
+// //  akta array er moddho koto tomo jaigai ache janar jonno [];
+// console.log(numbers[2]);
+
+// // kotomo position ache oita khuje pete  indexOf()
+
+// var indexPosition = numbers.indexOf(78);
+// console.log(indexPosition);
+
+// ========= multiple condition =========
+
+var isGraduated = true;
+var salary = 75000;
+var cars = 1;
+
+if (isGraduated == true && salary > 50000 && cars >= 1) {
+  console.log("yea you have a gradient");
+} else {
+  console.log("you have not gradient");
+}
