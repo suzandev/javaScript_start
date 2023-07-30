@@ -59,12 +59,63 @@
 
 // ========= multiple condition =========
 
-var isGraduated = true;
-var salary = 75000;
-var cars = 1;
+// var isGraduated = true;
+// var salary = 75000;
+// var cars = 1;
 
-if (isGraduated == true && salary > 50000 && cars >= 1) {
-  console.log("yea you have a gradient");
+// if (isGraduated == true && salary > 50000 && cars >= 1) {
+//   console.log("yea you have a gradient");
+// } else {
+//   console.log("you have not gradient");
+// }
+
+// var isGraduated = true;
+// var salary = 75000;
+// var cars = 1;
+
+// // jekono akta true hoylei hobe
+// if (isGraduated === true || salary > 50000 || cars >= 1) {
+//   console.log("yea you have gradient");
+// } else {
+//   console.log("you have not gradient");
+// }
+// // 2nd example
+// if (isGraduated === true && (salary > 50000 || cars >= 1)) {
+//   console.log("yea you have gradient");
+// } else {
+//   console.log("you have not gradient");
+// }
+
+// ======== multi stage conditions
+
+var money = 65;
+var danishPrice = 45;
+var butterBread = 35;
+var toastBiscuit = 20;
+
+if (danishPrice < money) {
+  console.log("Dan Dan danish khamu");
+} else if (butterBread < money) {
+  console.log("Butter bon khamu");
+} else if (toastBiscuit < money) {
+  console.log("Toast Biscuit khamu");
 } else {
-  console.log("you have not gradient");
+  console.log("Tea Party hobe only");
+}
+
+// ======== nested conditions
+
+var math = true;
+var geometry = true;
+var straightLint = false;
+
+if (math == true) {
+  if (geometry == true) {
+    if (straightLint == true) {
+    } else {
+      console.log("baka pothe cholte parba na");
+    }
+  } else {
+    console.log("pithagorous hoite parba na");
+  }
 }
