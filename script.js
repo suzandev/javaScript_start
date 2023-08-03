@@ -332,3 +332,23 @@ function sumOfNumbers(numbers) {
 const resultSum = sumOfNumbers(9);
 console.log("total result of sum: ", resultSum);
 */
+
+// ======== nested loop collect form jonas sir
+/*
+for (let exercise = 1; exercise <= 5; exercise++) {
+  console.log(`------Starting Exercise ${exercise}`);
+
+  for (let rep = 1; rep <= 5; rep++) {
+    console.log(`exercise ${exercise} Lifting weight repetition ${rep} 🏃‍♂️`);
+  }
+}
+*/
+
+// ======== collect to right age right now for jonas sir ========
+const years = [1991, 2007, 1969, 2020];
+const ages = [];
+
+for (let i = 0; i < years.length; i++) {
+  ages.push(2023 - years[i]);
+}
+console.log(ages);
