@@ -267,6 +267,9 @@ console.log(myNumber);
 
 */
 
+// ======== array odd number sum =========
+
+/*
 function getSumOfArray(arr) {
   let sum = 0;
   for (let i = 0; i < arr.length; i++) {
@@ -277,6 +280,7 @@ function getSumOfArray(arr) {
   return sum;
 }
 
+// collect odd numbers
 function getOddNumbers(numbers) {
   let oddNumbers = [];
   for (let i = 0; i < numbers.length; i++) {
@@ -290,9 +294,41 @@ function getOddNumbers(numbers) {
 }
 
 const myNumbers = [12, 65, 45, 78, 32, 45, 91];
-
 const collectOddNumbers = getOddNumbers(myNumbers);
 console.log(collectOddNumbers);
 
 const oddNumbersSum = getSumOfArray(collectOddNumbers);
 console.log("total odd numbers sum: ", oddNumbersSum);
+
+*/
+
+/*
+// 1-9 numbers sum 
+function sumOfNumbers(numbers) {
+  let sum = 0;
+  for (let i = 1; i <= numbers; i++) {
+    sum = sum + i;
+    console.log(i, sum);
+  }
+  return sum;
+}
+
+const resultSum = sumOfNumbers(9);
+console.log("total result of sum: ", resultSum);
+
+*/
+
+/*
+// 9 numbers multiplication sum
+function sumOfNumbers(numbers) {
+  let sum = 1;
+  for (let i = 1; i <= numbers; i++) {
+    sum = sum * i;
+    console.log(i, sum);
+  }
+  return sum;
+}
+
+const resultSum = sumOfNumbers(9);
+console.log("total result of sum: ", resultSum);
+*/
