@@ -345,6 +345,7 @@ for (let exercise = 1; exercise <= 5; exercise++) {
 */
 
 // ======== collect to right age right now for jonas sir ========
+/*
 const years = [1991, 2007, 1969, 2020];
 const ages = [];
 
@@ -352,3 +353,76 @@ for (let i = 0; i < years.length; i++) {
   ages.push(2023 - years[i]);
 }
 console.log(ages);
+
+*/
+
+// ======== object collect form jonas sir ========
+
+/*
+const jonas = {
+  firstName: "jonas",
+  lastName: "Schmedtmann",
+  age: 2037 - 1991,
+  job: "teacher",
+  friends: ["michael", "steven", "peter"],
+};
+console.log(jonas.firstName, jonas.lastName);
+
+const interestedIn = prompt(
+  "what do you want to know about Jonas? Choose between firstName, lastName, age, job and friends"
+);
+
+if (jonas[interestedIn]) {
+  console.log(jonas[interestedIn]);
+} else {
+  console.log(
+    "wrong request! Choose between firstName, lastName, age, job and friends"
+  );
+}
+
+//simple task
+
+console.log(
+  `${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}`
+);
+
+*/
+
+// const jonas = {
+//   firstName: "Jonas",
+//   lastName: "Schmedtmann",
+//   age: 2023 - 1991,
+//   job: "teacher",
+//   friends: ["Michael", "Peter", "Steven"],
+// };
+
+// console.log(jonas);
+
+// console.log(jonas.firstName); //collect the values from the objects
+// console.log(jonas["lastName"]); //collect the values from the objects
+
+// const nameKey = "Name";
+// console.log(jonas["first" + nameKey]); // any expression hear
+// console.log(jonas["last" + nameKey]); // any expression hear
+
+// const interestedIn = prompt(
+//   "What do you want to know about Jonas? Choose between firstName, lastName, age, job, and friends"
+// );
+
+// console.log(jonas[interestedIn]);
+
+// =============== js some codding problem solving =========
+const lyrics =
+  "tumi bondhu kala pakhi ami jeno ki. bosonto kale tomai bolte pari ni. sada sada kala kala";
+
+const parts = lyrics.split(" "); // space bad diye akta array return korbe
+
+const sentences = lyrics.split(".");
+
+const chars = lyrics.split(""); // protita careckter ke alada alada korbe
+
+const partial = lyrics.slice(5, 8); // koto theke suru kore koto theke katbe.
+
+const partial2 = lyrics.substring(5, 8);
+
+console.log(partial2);
