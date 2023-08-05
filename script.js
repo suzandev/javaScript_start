@@ -551,6 +551,37 @@ for (let i = 2; i <= 15; i++) {
 console.log(fibo);
 */
 
-const number = -78;
-const answer = Math.abs(number);
-console.log(answer);
+// =*=*=*=*=*=*=*=*= same name batil *=*=*=*=*=*=*=
+
+/*
+const studentsName = [
+  "abul",
+  "babul",
+  "cabul",
+  "dabul",
+  "abul",
+  "kabul",
+  "sabul",
+  "babul",
+  "cabul",
+  "dabul",
+  "abul",
+  "babul",
+  "sabul",
+];
+
+function removeDuplicate(names) {
+  const unique = [];
+  for (let i = 0; i < names.length; i++) {
+    const name = names[i];
+
+    if (unique.includes(name) === false) {
+      unique.push(name);
+    }
+  }
+  return unique;
+}
+
+const uniqueNames = removeDuplicate(studentsName);
+console.log(uniqueNames);
+*/
