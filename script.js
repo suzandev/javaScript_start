@@ -538,3 +538,19 @@ const tallest = maxNumber(heights);
 console.log(tallest);
 
 */
+//  ========= fibonacci numbers start =========
+
+/*
+// 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144. // fibonacci dhara 
+
+const fibo = [0, 1];
+
+for (let i = 2; i <= 15; i++) {
+  fibo[i] = fibo[i - 1] + fibo[i - 2];
+}
+console.log(fibo);
+*/
+
+const number = -78;
+const answer = Math.abs(number);
+console.log(answer);
