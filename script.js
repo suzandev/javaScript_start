@@ -412,6 +412,8 @@ console.log(
 // console.log(jonas[interestedIn]);
 
 // =============== js some codding problem solving =========
+
+/*
 const lyrics =
   "tumi bondhu kala pakhi ami jeno ki. bosonto kale tomai bolte pari ni. sada sada kala kala";
 
@@ -426,3 +428,113 @@ const partial = lyrics.slice(5, 8); // koto theke suru kore koto theke katbe.
 const partial2 = lyrics.substring(5, 8);
 
 console.log(partial2);
+
+*/
+
+// =======  some math =======
+
+/*
+const num1 = 25;
+const num2 = 45;
+
+const gap = Math.abs(num1 - num2); // only positive or negative  return debe na only value return debe
+
+if (gap < 5) {
+  console.log("you guys can be friends");
+} else {
+  console.log("you guys stay apart");
+}
+
+console.log(gap);
+*/
+
+/*
+
+const numbers = 2.4598;
+
+const fullNumber = Math.round(numbers); // .5 thakle opore values debe
+// console.log(fullNumber);
+const result = Math.ceil(2.00001);
+
+const result2 = Math.floor(456.259); // . dosomik er porer numbers nebe na
+// console.log(result2);
+
+//const random = Math.random() * 100; // only 100 er modho random number debe
+
+const random2 = Math.floor(Math.random() * 100); // . dosomik er porer number nebe na but random number debe
+
+console.log(random2);
+
+ // 1-20 er modho random number debe with loop
+for (let i = 0; i < 20; i++) {
+  const random = Math.round(Math.random() * 6);
+  console.log(random);
+}
+
+*/
+
+// =========== some swap ==========
+
+/*
+let first = 5;
+let second = 7;
+
+console.log(first, second);
+
+const temp = first;
+
+first = second;
+second = temp;
+
+console.log(first, second);
+*/
+
+// ========= max number =========
+
+/*
+// ======== find begets number of for loop =========
+
+function maxNumber(numbers) {
+  let largest = numbers[0];
+
+  for (let i = 0; i < numbers.length; i++) {
+    const index = i;
+    const element = numbers[index];
+
+    if (element > largest) {
+      largest = element;
+    }
+  }
+  return largest;
+}
+
+const heights = [167, 190, 120, 165, 137, 265];
+
+const tallest = maxNumber(heights);
+console.log(tallest);
+
+*/
+
+// ======== find lowest number of for loop =========
+
+/*
+function maxNumber(numbers) {
+  let largest = numbers[0];
+
+  for (let i = 0; i < numbers.length; i++) {
+    const index = i;
+    const element = numbers[index];
+
+    if (element < largest) {
+      largest = element;
+    }
+  }
+  return largest;
+}
+
+const heights = [167, 190, 120, 165, 137, 265];
+
+const tallest = maxNumber(heights);
+console.log(tallest);
+
+*/
