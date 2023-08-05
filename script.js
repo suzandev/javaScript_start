@@ -787,3 +787,18 @@ const price = ticketPrice(230);
 console.log("price:", price);
 
 */
+
+// =*=*=*=*=*=*=*=*= math validation *=*=*=*=*=*=*=
+
+/*
+function add(num1, num2) {
+  if (typeof num1 !== "number" || typeof num2 !== "number") {
+    return "please enter a number";
+  }
+  return num1 + num2;
+}
+
+const result = add(112, 45); // kono karone string dile
+console.log(result);
+
+*/
