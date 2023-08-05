@@ -585,3 +585,54 @@ function removeDuplicate(names) {
 const uniqueNames = removeDuplicate(studentsName);
 console.log(uniqueNames);
 */
+
+// =*=*=*=*=*=*=*=*= show output from: 1-50 *=*=*=*=*=*=*=
+/*
+  // 1. if the number is divisible by 3 then instead of the number show "foo"
+  // 2. if the number is divisible by 5 then instead of the number show "bar"
+  // 3. if the number is divisible by both 3 and 5 then instead of the number show "foobar"
+*/
+/*
+for (let i = 1; i <= 50; i++) {
+  if (i % 3 === 0 && i % 5 === 0) {
+    console.log("foobar");
+  } else if (i % 3 === 0) {
+    console.log("foo");
+  } else if (i % 5 === 0) {
+    console.log("bar");
+  } else {
+    console.log(i);
+  }
+}
+*/
+
+// =*=*=*=*=*=*=*=*= fixed: per item wood requirements *=*=*=*=*=*=*=
+
+/*
+
+// 1. chair --> 3 cft
+// 2. table --> 10 cft
+// 3. bed --> 50 cft
+
+// vary: quantity
+
+function woodCalculator(chairQuantity, tableQuantity, bedQuantity) {
+  const perChairWood = 3;
+  const perTableWood = 10;
+  const perBedWood = 50;
+
+  const chairWood = chairQuantity * perChairWood;
+  const tableWood = tableQuantity * perTableWood;
+  const bedWood = bedQuantity * perBedWood;
+
+  const totalWood = chairWood + tableWood + bedWood;
+
+  return totalWood;
+
+  // console.log(chairQuantity, tableQuantity, bedQuantity);
+}
+
+const totalWood = woodCalculator(2, 2, 5);
+console.log("total wood require:", totalWood);
+
+*/
