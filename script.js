@@ -802,3 +802,85 @@ const result = add(112, 45); // kono karone string dile
 console.log(result);
 
 */
+
+// =*=*=*=*=*=*=*=*= Bonus object video *=*=*=*=*=*=*=
+
+/*
+const nayok = {
+  name: "Sakib khan",
+  id: 121,
+  address: "movie cinema",
+  isSingle: true,
+  friends: ["apu", "Raaz", "Salman", "aamir"],
+  movies: [
+    { name: "no.1", year: 2015 },
+    { name: "King Khan", year: 2016 },
+  ],
+  act: function () {
+    console.log("acting like Sakib khan");
+  },
+  car: {
+    brand: "tesla",
+    price: 5000000,
+    made: 2025,
+    manufacturer: {
+      name: "tesla",
+      ceo: "Elon Mask",
+    },
+  },
+};
+
+console.log(nayok.act);
+
+*/
+
+// =*=*=*=*=*=*=*=*= Bonus array video *=*=*=*=*=*=*=
+
+/*
+function add(num1, num2) {
+  console.log(num1, num2);
+  console.log(arguments); // array like object
+
+  console.log(arguments[3]); // array er 3 no element paoya jabe
+}
+
+add(12, 13, 45, 89, 78);
+
+*/
+
+// const numbers = [45, 65, 23, 98, 19];
+
+// for (const number of numbers) {
+//   console.log(number);
+// }
+
+////// example 2
+
+/*
+const products = [
+  { id: 1, name: "Xiami phone One night", price: 19000 },
+  { id: 2, name: "iphone", price: 19000 },
+  { id: 3, name: "mac book air", price: 19000 },
+  { id: 4, name: "lenovo yoga laptop 2025", price: 19000 },
+  { id: 5, name: "dell inspiron laptop", price: 19000 },
+  { id: 6, name: "samsung phone note 7", price: 19000 },
+  { id: 7, name: "Nokia old age Phone gone", price: 19000 },
+  { id: 8, name: "one Phone", price: 19000 },
+];
+
+function matchProducts(products, search) {
+  const matched = [];
+
+  for (const product of products) {
+    if (product.name.toLowerCase().includes(search.toLowerCase())) {
+      matched.push(product);
+    }
+  }
+
+  return matched;
+}
+
+const result = matchProducts(products, "laptop");
+console.log(result);
+
+*/
